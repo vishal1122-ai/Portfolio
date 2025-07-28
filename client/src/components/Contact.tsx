@@ -46,28 +46,28 @@ export default function Contact() {
     {
       icon: "fas fa-envelope",
       title: "Email",
-      value: "vishal@example.com",
-      link: "mailto:vishal@example.com",
+      value: "vsitamraju2003@gmail.com",
+      link: "mailto:vsitamraju2003@gmail.com",
     },
     {
       icon: "fab fa-linkedin",
       title: "LinkedIn",
       value: "linkedin.com/in/vishal-sitamraju",
-      link: "https://linkedin.com/in/vishal-sitamraju",
+      link: "https://www.linkedin.com/in/venkatavishal/",
     },
     {
       icon: "fab fa-github",
       title: "GitHub",
       value: "github.com/vishal-sitamraju",
-      link: "https://github.com/vishal-sitamraju",
+      link: "https://github.com/vishal1122-ai",
     },
   ];
 
-  const socialLinks = [
-    { icon: "fab fa-twitter", link: "#" },
-    { icon: "fab fa-dribbble", link: "#" },
-    { icon: "fab fa-behance", link: "#" },
-  ];
+  // const socialLinks = [
+  //   { icon: "fab fa-twitter", link: "#" },
+  //   { icon: "fab fa-dribbble", link: "#" },
+  //   { icon: "fab fa-behance", link: "#" },
+  // ];
 
   return (
     <section id="contact" className="py-20 px-6">
@@ -177,7 +177,7 @@ export default function Contact() {
             ))}
 
             {/* Social Links */}
-            <div className="pt-8">
+            {/* <div className="pt-8">
               <h3 className="font-semibold mb-4">Let's Connect</h3>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
@@ -194,7 +194,7 @@ export default function Contact() {
                   </a>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
